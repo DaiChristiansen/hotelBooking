@@ -1,0 +1,134 @@
+/* .main-container {
+    background-image: url("./images/background-login-booking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.background-image {
+    position: fixed;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.logo-image {
+    display:block;
+    margin:auto;
+    padding-top: 90px;
+    width: 100px;
+}
+
+.title-logo {
+    color: white;
+    text-align: center;
+    font-family: "Avenir", Arial, sans-serif;
+    font-size: 66px;
+    letter-spacing: 2px;
+    margin-top: 26px;
+
+}
+
+.content{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 130px;
+    border: none;
+}
+
+fieldset{
+    border: none;
+}
+
+label{
+    margin-top: 80px;
+    margin-left: 12px;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    font-family: "Avenir", "Myriad", Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 50px;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom-style: outset;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid #ff2d66
+}
+
+/* input:hover {
+    border: 1px solid red;
+} */
+
+.login-container{
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    height: 100px;
+    background:  -webkit-linear-gradient(left, rgba(245,53,103,1) 0%,  rgba(255,90,61,1) 100%);
+    color: white;
+    font-size: 35px;
+    font-family: "Avenir", Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 120px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.button:focus{
+    width: 90%;
+    height: 90px;
+    background:  -webkit-linear-gradient(left, rgb(175, 0, 47) 0%,  rgb(197, 30, 0) 100%);
+
+}
+
+
+/*
+#header ID
+.header class
+header tag
+*/
+
+/* 
+:hover cuando pasas el mouse
+:focus cuando lo seleccionas
+*/
+
+/* .title { le da estilo a todas las clases que encuentra con ese nombre
+    color: green;
+} */
+
+/* .main-container .header .title { este es el caminito de la clase, es más específico.
+    color: red;
+} */
+
+/* .title,
+.header,
+.content,
+.main-container { le da estilo a todas esas claseslistadas, tiene que estar separadas por coma.
+    margin: 20px;
+} */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
