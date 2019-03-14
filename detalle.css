@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background: #bebcbc; 
+}
+
+.carousel-image{
+    width: 100%; 
+}
+
+.card-container{
+    text-align: center;
+}
+
+.card{
+    background: white;
+    width: 90%;
+    font-family: "Avenir", Arial, sans-serif;
+    margin: 16 auto 0 auto;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.20);
+    border-radius: 10px;
+    padding-top: 47px;
+}
+
+.datos-de-contacto{
+    padding-left: 26px;    
+    text-align: left;
+    display: inline-block;
+    width: 79%;
+}
+
+.nombre{
+    font-size: 32px;  
+    font-weight: bold;
+    margin: 0;
+}
+
+p{
+    color: #a6a6a6;
+    font-size: 24px;
+    margin: 2px;
+}
+
+.icono-telefono{
+    display: inline-block;
+}
+
+.telefono{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.precio{
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+}
+
+.monto{
+    color: #ff6064;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.button-card{
+    width: 93%;
+    border: none; 
+    border-top-style: outset;
+    margin: 16px auto 0 auto;
+    outline: none;
+    border-top: 1px solid gray;
+    background: white;
+}
+
+.button-card-text{
+    background: white;
+    border: none; 
+    font-size: 32px;
+    padding: 15 0 30 0;
+    margin-top: 16px;
+    color: #ff6064;
+    display: inline-block;
+    width: 82%;   
+    text-align: left; 
+}
+
+.button-card-icon{
+    text-align: right;
+}
+
+.button-card-icon-container{
+    display: inline-block;
+    width: 17%;
+    text-align: right;
+
+}
+
+.detalles{
+    text-align: left;
+}
+
